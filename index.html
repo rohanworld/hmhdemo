@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/84428dbefe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZNEAK | One Stop Destination for Sneakers</title>
+</head>
+
+<body>
+    <header>
+        <div id="menu-bar" class="fa fa-bars"></div>
+        <a onclick="addToCart(event)" href="#"   class="logo"><strong>ZNEAK</strong></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#product">Product</a>
+            <a href="#featured">Featured</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <a onclick="addToCart(event)" href="#"  ><i class="fa fa-shopping-cart"></i></a>
+            <!-- Shopping Cart needs to be added here -->
+            <a onclick="addToCart(event)" href="#"  ><i class="fa fa-user"></i></a>
+            <!-- USER - Account - Login- Signup needs to be added here on click   -->
+        </div>
+    </header>
+    <!--end header-->
+    <section class="home" id="home">
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Sneakers</span>
+                    <h3>Nike Pulse Go Buzz</h3>
+                    <p>
+                        A shoe with a rubber sole that is designed for people to wear while running, playing sports, and
+                        do what's best for you.
+                    </p>
+                    <a onclick="addToCart(event)"  href="#"   class="btn">Add to Cart</a>
+                </div>
+                <div class="image">
+                    <img src="images/slide/slide1.jpeg" class="shoe">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Adidas Sneakers</span>
+                    <h3>Adidas Airmax Pulse</h3>
+                    <p>
+                        Shoes primarily designed for sports or other forms of physical exercise, but which are also
+                        widely used for everyday casual wear.
+                    </p>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+                <div class="image">
+                    <img width="100" width="100" src="images/slide/slide2.jpeg" class="shoe">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>FILA Sneakers</span>
+                    <h3>FILA Dunk Retro Premium</h3>
+                    <p>
+                        A high or low shoe, usually of fabric such as canvas, with a rubber or synthetic sole, designed
+                        for all the terrain out there no matter what.
+                    </p>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+                <div class="image">
+                    <img src="images/slide/slide3.jpeg" class="shoe">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>PUMA Sneakers</span>
+                    <h3>PUMA Invincible Vision</h3>
+                    <p>
+                        A shoe with an upper of, typically, canvas or nylon, and a continuous sole and heel as of soft
+                        rubber: for recreation and informal wear.
+                    </p>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+                <div class="image">
+                    <img src="images/slide/slide4.jpg" class="shoe">
+                </div>
+            </div>
+        </div>
+
+        <div id="prev" class="fa fa-angle-left" onclick="prev();"></div>
+        <div id="next" class="fa fa-angle-right" onclick="next();"></div>
+    </section>
+    <!--end home-->
+    <hr>
+    <section class="product" id="product">
+        <h1 class="heading">New <span>Arrivals</span></h1>
+        <div class="box-container">
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/men/1.jpg" alt="">
+                    <h3>Nike Shoes</h3>
+                    <div class="price">₹123 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/men/2.jpg" alt="">
+                    <h3>Nike Shoes</h3>
+                    <div class="price">₹456 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/men/3.jpg" alt="">
+                    <h3>Nike Shoes</h3>
+                    <div class="price">₹789 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product" id="product">
+        <h1 class="heading">Men's <span>Collections</span></h1>
+        <div class="box-container">
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/men/4.jpg" alt="">
+                    <h3>One8 - PUMA</h3>
+                    <div class="price">₹147 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/men/7.jpg" alt="">
+                    <h3>Adidas</h3>
+                    <div class="price">₹258 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/men/6.jpg" alt="">
+                    <h3>Jordans</h3>
+                    <div class="price">₹369 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/men/5.jpg" alt="">
+                    <h3>Reebok</h3>
+                    <div class="price">₹159 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/men/1.jpg" alt="">
+                    <h3>Vans</h3>
+                    <div class="price">₹357 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product" id="product">
+        <h1 class="heading">Women's <span>Collections</span></h1>
+        <div class="box-container">
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/women/women (1).jpg" alt="">
+                    <h3>Nike Shoes</h3>
+                    <div class="price">₹684 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/women/women (2).jpg" alt="">
+                    <h3>New Balance</h3>
+                    <div class="price">₹426 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/women/women (3).jpg" alt="">
+                    <h3>Campus</h3>
+                    <div class="price">₹317 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/women/women (4).jpg" alt="">
+                    <h3>Sketchers</h3>
+                    <div class="price">₹793 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="content">
+                    <img src="images/women/women (1).jpg" alt="">
+                    <h3>Sparx</h3>
+                    <div class="price">₹852 <span>₹999</span></div>
+                    <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end product-->
+    <section class="featured" id="featured">
+        <h1 class="heading">Hottest of the Week</h1>
+        <div class="row">
+            <div class="image-container">
+                <div class="big-image">
+                    <img src="images/ht/ht1.jpeg" alt="" class="big-image-1">
+                </div>
+            </div>
+            <div class="content">
+                <h3>NIKE Airmac Smart Shoes</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>
+                    Provides intelligent cushioning by automatically and continuously adjusting itself by sensing the
+                    cushioning level, using sensors embedded into it.
+                </p>
+                <div class="price">₹2575 <span>₹3000</span></div>
+                <a onclick="addToCart(event)" href="#"   class="btn">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Form needs to be added here -->
+    <hr>
+    <section class="footer" id="footer">
+        <div class="box">
+            <h3>Copyright © 2023 HMH - All Rights Reserved</h3>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
